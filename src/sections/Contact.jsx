@@ -53,7 +53,7 @@ const contactLinks = [
 ]
 
 /* ── Formspree endpoint — replace YOUR_FORM_ID with real ID from formspree.io ── */
-const FORMSPREE_URL = 'https://formspree.io/f/YOUR_FORM_ID'
+const FORMSPREE_URL = 'https://formspree.io/f/xykrnzdj'
 
 export default function Contact() {
   const [form,   setForm]   = useState({ name: '', email: '', subject: '', message: '' })
